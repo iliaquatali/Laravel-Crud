@@ -13,7 +13,7 @@ class CompanyController extends Controller
     */
     public function index()
     {
-        $companies = Company::paginate(2);
+        $companies = Company::paginate(5);
         return view('Companies.index')->with('faheem', $companies);
     }
 

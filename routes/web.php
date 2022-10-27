@@ -1,8 +1,10 @@
 <?php
 
-use App\Http\Controllers\RegisterController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CompanyController;
+
+use App\Http\Controllers\LangController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -19,21 +21,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('/demo',function(){
-//     echo "Demo route"."<br>";
-//     echo 12345;
-// });
+Route::resource('companies', CompanyController::class);     
 
-// Route::get('/demo',function(){
-//     return view('/demo');
-// });
 
-// Route::get('/{name?}', function ($name = null){
-//         $data = compact('name');
-//         return view('demo')->with($data);
-// });
 
-// Route::get('register', [RegisterController::class,'index']);
-// Route::post('user/store', [RegisterController::class,'store'])->name('user.store');
-
-Route::resource('companies', CompanyController::class);
+Route::get('lang/home', [LangController::class, 'index']);
+Route::get('lang/change', [LangController::class, 'change'])->name('changeLang');
