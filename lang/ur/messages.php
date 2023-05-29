@@ -20,5 +20,7 @@ return [
     'Submit' => 'جمع کرائیں',
     'Company has been created successfully' => 'کمپنی کامیابی کے ساتھ بنائی گئی ہے',
     'Add Company' => 'کمپنی شامل کریں',
+    'Select Language' => 'زبان منتخب کریں',
+
 
 ];

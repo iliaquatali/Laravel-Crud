@@ -20,6 +20,8 @@ return [
     'Submit' => '参加する',
     'Company has been created successfully' => '会社が正常に作成されました',
     'Add Company' => '会社を追加',
+    'Select Language' => '言語を選択する',
+
     
     
 ];

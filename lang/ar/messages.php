@@ -19,6 +19,7 @@ return [
     'Submit' => 'إرسال',
     'Company has been created successfully' => 'تم إنشاء الشركة بنجاح',
     'Add Company' => 'أضف شركة',
+    'Select Language' => 'اختار اللغة',
 
 
   

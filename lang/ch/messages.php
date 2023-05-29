@@ -20,6 +20,8 @@ return [
     'Submit' => '提交',
     'Company has been created successfully' => '公司已成功創建',
     'Add Company' => '添加公司',
+    'Select Language' => '選擇語言',
+
 
 
 ];

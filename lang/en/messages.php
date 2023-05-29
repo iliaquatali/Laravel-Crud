@@ -22,6 +22,6 @@ return [
     'Submit' => 'Submit',
     'Company has been created successfully' => 'Company has been created successfully',
     'Add Company' => 'Add Company',
-
+    'Select Language' => 'Select Language',
 
 ];

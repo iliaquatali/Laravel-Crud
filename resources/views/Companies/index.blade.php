@@ -13,7 +13,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2 col-md-offset-6 text-right">
-                <strong>Select Language: </strong>
+                <strong>{{__('messages.Select Language')}} </strong>
             </div>
             <div class="col-md-4">
                 <select class="form-control changeLang">
@@ -79,7 +79,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach ($faheem as $company)
+                @foreach ($pag as $company)
                     <tr>
                         <td>{{ $company->id }}</td>
                         <td>{{ $company->name }}</td>
@@ -98,7 +98,7 @@
                     @endforeach
             </tbody>
         </table>
-        {!! $faheem->links() !!}
+        {!! $pag->links() !!}
     </div>
 </body>
 </html>

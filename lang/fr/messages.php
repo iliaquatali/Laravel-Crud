@@ -20,6 +20,7 @@ return [
     'Submit' => 'nous faire parvenir',
     'Company has been created successfully' => 'La société a été créée avec succès',
     'Add Company' => 'Ajouter une entreprise',
+    'Select Language' => 'Choisir la langue',
 
   
 ];

@@ -20,5 +20,5 @@ return [
     'Submit' => 'enviar',
     'Company has been created successfully' => 'La empresa ha sido creada con éxito',
     'Add Company' => 'Agregar empresa',
-
+    'Select Language' => 'Seleccione el idioma',
 ];
